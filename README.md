@@ -52,3 +52,13 @@ docker build -f ./Dockerfile -t hello-world .
 docker tag hello-world dolittle/hello-world:latest
 docker push dolittle/hello-world:latest
 ```
+
+# Environment Variables
+## BIND
+- localhost or 0.0.0.0
+
+## PORT
+- port to listen to
+
+## URL_PREFIX
+- the prefix used, to "work on a sub route"
